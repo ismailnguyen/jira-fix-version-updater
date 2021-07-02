@@ -1,0 +1,16 @@
+{
+  "name": "jira-fix-version-updater",
+  "version": "1.0.0",
+  "description": "Update JIRA ticket's fix version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ismaïl NGUYEN",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "jira-connector": "^3.1.0"
+  }
+}
